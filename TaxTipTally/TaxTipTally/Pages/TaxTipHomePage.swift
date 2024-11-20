@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeVC: UIViewController {
+class TaxTipHomePage: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,20 +20,20 @@ class HomeVC: UIViewController {
     }
     
     @IBAction func Discount(_ sender: Any) {
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "DiscountFormulaVC") as! DiscountFormulaVC
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "DiscountFormulaVC") as! TaxTipDiscountFormulaPage
         self.navigationController?.pushViewController(vc, animated: true)
     }
     @IBAction func Chits(_ sender: Any) {
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "ChitFormulaVC") as! ChitFormulaVC
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "ChitFormulaVC") as! TaxTipChitFormulaPage
         self.navigationController?.pushViewController(vc, animated: true)
     }
     @IBAction func GST(_ sender: Any) {
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "GSTFormulaVC") as! GSTFormulaVC
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "GSTFormulaVC") as! TaxTipGSTFormulaPage
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func Tips(_ sender: Any) {
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "TipFormulaVC") as! TipFormulaVC
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "TipFormulaVC") as! TaxTipFormulaPage
         self.navigationController?.pushViewController(vc, animated: true)
     }
 

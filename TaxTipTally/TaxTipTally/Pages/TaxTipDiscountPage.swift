@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DiscountVC: UIViewController {
+class TaxTipDiscountPage: UIViewController {
 
     @IBOutlet weak var viewFinal: UIView!
     @IBOutlet weak var viewSaving: UIView!

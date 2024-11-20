@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vJW-Oa-LIG">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -18,10 +17,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--DiscountVC-->
+        <!--Tax Tip Discount Page-->
         <scene sceneID="mr9-Bf-2zF">
             <objects>
-                <viewController storyboardIdentifier="DiscountVC" id="IBM-uY-fuS" customClass="DiscountVC" customModule="TaxTipTally" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DiscountVC" id="IBM-uY-fuS" customClass="TaxTipDiscountPage" customModule="TaxTipTally" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B5t-1J-cW1">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -30,7 +29,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter GST" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BpU-fu-ZjO">
-                                <rect key="frame" x="20" y="256" width="353" height="40"/>
+                                <rect key="frame" x="20" y="239.66666666666663" width="353" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="dix-VO-Yna"/>
                                 </constraints>
@@ -38,19 +37,19 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discount (%)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQR-4M-AQg">
-                                <rect key="frame" x="20" y="215" width="353" height="31"/>
+                                <rect key="frame" x="20" y="204" width="353" height="25.666666666666657"/>
                                 <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discount Calculator" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icP-Nu-yMX">
-                                <rect key="frame" x="74" y="69" width="309" height="35"/>
+                                <rect key="frame" x="74" y="69" width="309" height="29.333333333333329"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGw-8E-DVf">
-                                <rect key="frame" x="16" y="62.666666666666657" width="48" height="48"/>
+                                <rect key="frame" x="16" y="59.666666666666657" width="48" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="48" id="NBK-Yo-D8m"/>
                                     <constraint firstAttribute="height" constant="48" id="wqz-aE-tW2"/>
@@ -62,13 +61,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Q9-lz-uZk">
-                                <rect key="frame" x="20" y="124" width="353" height="31"/>
+                                <rect key="frame" x="20" y="118.33333333333333" width="353" height="25.666666666666671"/>
                                 <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="awZ-7h-9zY">
-                                <rect key="frame" x="20" y="165" width="353" height="40"/>
+                                <rect key="frame" x="20" y="154" width="353" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="vR7-zP-xt5"/>
                                 </constraints>
@@ -76,7 +75,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gRA-Dl-i0W">
-                                <rect key="frame" x="20" y="316" width="353" height="60"/>
+                                <rect key="frame" x="20" y="299.66666666666669" width="353" height="60"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HuB-dU-eDS">
                                         <rect key="frame" x="0.0" y="0.0" width="171.66666666666666" height="60"/>
@@ -157,13 +156,13 @@
                                 <rect key="frame" x="20" y="752" width="353" height="80"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Final Amount" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WgS-1S-knd">
-                                        <rect key="frame" x="10" y="10" width="333" height="28"/>
+                                        <rect key="frame" x="10" y="9.9999999999999982" width="333" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="500" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SCv-M1-Z7O">
-                                        <rect key="frame" x="10" y="48" width="333" height="28"/>
+                                        <rect key="frame" x="10" y="43.333333333333371" width="333" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -195,13 +194,13 @@
                                 <rect key="frame" x="20" y="662" width="353" height="80"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Saving Amount" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVs-1E-glk">
-                                        <rect key="frame" x="10" y="10" width="333" height="28"/>
+                                        <rect key="frame" x="10" y="9.9999999999999982" width="333" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="500" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eba-0y-Wbf">
-                                        <rect key="frame" x="10" y="48" width="333" height="28"/>
+                                        <rect key="frame" x="10" y="43.333333333333371" width="333" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -278,10 +277,10 @@
             </objects>
             <point key="canvasLocation" x="4411" y="-13"/>
         </scene>
-        <!--HomeVC-->
+        <!--Tax Tip Home Page-->
         <scene sceneID="RX5-Di-Ts9">
             <objects>
-                <viewController storyboardIdentifier="HomeVC" id="r8v-C8-re1" customClass="HomeVC" customModule="TaxTipTally" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="r8v-C8-re1" customClass="TaxTipHomePage" customModule="TaxTipTally" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SDl-8X-QSg">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -316,7 +315,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TaxTipTally" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TJe-Io-vT5">
-                                <rect key="frame" x="74" y="69" width="309" height="35"/>
+                                <rect key="frame" x="74" y="69" width="309" height="29.333333333333329"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -374,7 +373,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ajx-1o-lay">
-                                <rect key="frame" x="16" y="62.666666666666657" width="48" height="48"/>
+                                <rect key="frame" x="16" y="59.666666666666657" width="48" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="48" id="ILM-VW-Eox"/>
                                     <constraint firstAttribute="height" constant="48" id="i7o-Zh-eEw"/>
@@ -412,7 +411,7 @@
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="heG-qK-XYP">
-                                <rect key="frame" x="71.666666666666686" y="130.66666666666666" width="250" height="249.99999999999997"/>
+                                <rect key="frame" x="71.666666666666686" y="127.66666666666669" width="250" height="250"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="250" id="8aN-f4-LO3"/>
                                     <constraint firstAttribute="width" constant="250" id="Yhw-Dm-PCJ"/>
@@ -458,6 +457,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="vJW-Oa-LIG" customClass="TaxTipNavigationController" customModule="TaxTipTally" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ayG-5H-ekO">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -469,10 +469,10 @@
             </objects>
             <point key="canvasLocation" x="-392" y="-13"/>
         </scene>
-        <!--ChitsVC-->
+        <!--Tax Tip Chits Page-->
         <scene sceneID="8pN-jI-arJ">
             <objects>
-                <viewController storyboardIdentifier="ChitsVC" id="MNK-GA-3NQ" customClass="ChitsVC" customModule="TaxTipTally" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChitsVC" id="MNK-GA-3NQ" customClass="TaxTipChitsPage" customModule="TaxTipTally" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="r2H-94-Uii">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -481,25 +481,25 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Auction Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YcI-WR-X8h">
-                                <rect key="frame" x="20" y="380" width="353" height="25.333333333333314"/>
+                                <rect key="frame" x="20" y="361.33333333333331" width="353" height="21"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agent Commision" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h22-cB-7Ph">
-                                <rect key="frame" x="20" y="294.66666666666669" width="353" height="25.333333333333314"/>
+                                <rect key="frame" x="20" y="280.33333333333331" width="353" height="21"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Member" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AgW-Fp-AFc">
-                                <rect key="frame" x="200" y="209.33333333333334" width="173" height="25.333333333333343"/>
+                                <rect key="frame" x="200" y="199.33333333333334" width="173" height="21"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Month" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hog-L7-Y3O">
-                                <rect key="frame" x="20" y="209.33333333333334" width="170" height="25.333333333333343"/>
+                                <rect key="frame" x="20" y="199.33333333333334" width="170" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="170" id="6i1-63-grM"/>
                                 </constraints>
@@ -508,7 +508,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Auction Amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aUN-ID-YHL">
-                                <rect key="frame" x="20" y="415.33333333333331" width="353" height="40"/>
+                                <rect key="frame" x="20" y="392.33333333333331" width="353" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="wY4-HR-31A"/>
                                 </constraints>
@@ -516,7 +516,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Agent Commision (%)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0pV-F8-4vq">
-                                <rect key="frame" x="20" y="330" width="353" height="40"/>
+                                <rect key="frame" x="20" y="311.33333333333331" width="353" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="DU6-va-ayd"/>
                                 </constraints>
@@ -524,13 +524,13 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chits Calculator" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPt-Om-SJ9">
-                                <rect key="frame" x="74" y="69" width="309" height="35"/>
+                                <rect key="frame" x="74" y="69" width="309" height="29.333333333333329"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rqm-IX-fo0">
-                                <rect key="frame" x="16" y="62.666666666666657" width="48" height="48"/>
+                                <rect key="frame" x="16" y="59.666666666666657" width="48" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="48" id="B1n-xu-lrl"/>
                                     <constraint firstAttribute="height" constant="48" id="k5M-nX-U0E"/>
@@ -542,7 +542,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UR0-AT-HSe">
-                                <rect key="frame" x="20" y="159.33333333333334" width="353" height="40"/>
+                                <rect key="frame" x="20" y="149.33333333333334" width="353" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="IY9-QG-J2B"/>
                                 </constraints>
@@ -550,7 +550,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ZPE-l4-GDA">
-                                <rect key="frame" x="20" y="560.66666666666663" width="353" height="60"/>
+                                <rect key="frame" x="20" y="533.33333333333337" width="353" height="60"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3o8-I4-J28">
                                         <rect key="frame" x="0.0" y="0.0" width="171.66666666666666" height="60"/>
@@ -628,7 +628,7 @@
                                 </constraints>
                             </stackView>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Auction Month" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uT0-IC-V1h">
-                                <rect key="frame" x="20" y="500.66666666666674" width="353" height="40"/>
+                                <rect key="frame" x="20" y="473.33333333333331" width="353" height="39.999999999999943"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Fmr-Bj-aDh"/>
                                 </constraints>
@@ -636,7 +636,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="IES-Vw-gsm">
-                                <rect key="frame" x="20" y="244.66666666666663" width="353" height="40"/>
+                                <rect key="frame" x="20" y="230.33333333333334" width="353" height="40.000000000000028"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7BV-ee-lsN">
                                         <rect key="frame" x="0.0" y="0.0" width="171.66666666666666" height="40"/>
@@ -678,13 +678,13 @@
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chit Value" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MhA-KQ-dcY">
-                                <rect key="frame" x="20" y="123.99999999999999" width="353" height="25.333333333333329"/>
+                                <rect key="frame" x="20" y="118.33333333333331" width="353" height="21"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Auction Month" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ec1-P5-kq1">
-                                <rect key="frame" x="20" y="465.33333333333331" width="353" height="25.333333333333314"/>
+                                <rect key="frame" x="20" y="442.33333333333331" width="353" height="21"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -752,10 +752,10 @@
             </objects>
             <point key="canvasLocation" x="2428" y="-13"/>
         </scene>
-        <!--WelcomeVC-->
+        <!--Tax Tip Welcome Page-->
         <scene sceneID="gam-IX-lzZ">
             <objects>
-                <viewController storyboardIdentifier="WelcomeVC" id="4bo-Mg-fb6" customClass="WelcomeVC" customModule="TaxTipTally" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WelcomeVC" id="4bo-Mg-fb6" customClass="TaxTipWelcomePage" customModule="TaxTipTally" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5oR-NI-gqa">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -764,7 +764,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yzc-rA-m1A">
-                                <rect key="frame" x="20" y="464" width="353" height="60"/>
+                                <rect key="frame" x="20" y="458.33333333333331" width="353" height="59.999999999999943"/>
                                 <color key="backgroundColor" name="Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="2RB-Zd-q83"/>
@@ -790,20 +790,20 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TaxTipTally" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2y-b8-Qxz">
-                                <rect key="frame" x="10" y="69" width="373" height="35"/>
+                                <rect key="frame" x="10" y="69" width="373" height="29.333333333333329"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="WGX-o4-K1m">
-                                <rect key="frame" x="71.666666666666686" y="124" width="250" height="250"/>
+                                <rect key="frame" x="71.666666666666686" y="118.33333333333331" width="250" height="250"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="BcN-nm-fZ5"/>
                                     <constraint firstAttribute="height" constant="250" id="KuN-fp-5Wb"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wY3-AD-TRI">
-                                <rect key="frame" x="20" y="394" width="353" height="60"/>
+                                <rect key="frame" x="20" y="388.33333333333331" width="353" height="60"/>
                                 <color key="backgroundColor" name="Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="Zgp-PE-p8b"/>
@@ -829,7 +829,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5m-oI-9lz">
-                                <rect key="frame" x="20" y="534" width="353" height="60"/>
+                                <rect key="frame" x="20" y="528.33333333333337" width="353" height="60"/>
                                 <color key="backgroundColor" name="Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="B2x-3P-TfG"/>
@@ -855,7 +855,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Xc-Yt-uSe">
-                                <rect key="frame" x="20" y="604" width="353" height="60"/>
+                                <rect key="frame" x="20" y="598.33333333333337" width="353" height="60"/>
                                 <color key="backgroundColor" name="Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="C1n-hi-Lo6"/>
@@ -913,10 +913,10 @@
             </objects>
             <point key="canvasLocation" x="385" y="-13"/>
         </scene>
-        <!--TipVC-->
+        <!--Tax Tip Tip Page-->
         <scene sceneID="0PF-pE-w64">
             <objects>
-                <viewController storyboardIdentifier="TipVC" id="rfR-ea-kyF" customClass="TipVC" customModule="TaxTipTally" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TipVC" id="rfR-ea-kyF" customClass="TaxTipTipPage" customModule="TaxTipTally" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EtP-tK-Bcx">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -925,7 +925,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Number Of Person" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lr8-24-jvk">
-                                <rect key="frame" x="20" y="242" width="353" height="45"/>
+                                <rect key="frame" x="20" y="239.33333333333337" width="353" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="wFl-y5-SLn"/>
                                 </constraints>
@@ -933,7 +933,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Tip (%)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lwv-Vm-abu">
-                                <rect key="frame" x="20" y="187" width="353" height="45"/>
+                                <rect key="frame" x="20" y="184.33333333333334" width="353" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="hWW-E4-s8m"/>
                                 </constraints>
@@ -953,7 +953,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EdF-jS-4h3">
-                                <rect key="frame" x="20" y="132" width="353" height="45"/>
+                                <rect key="frame" x="20" y="129.33333333333334" width="353" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="0ej-7e-d0G"/>
                                 </constraints>
@@ -961,13 +961,13 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0R6-d2-Nu5">
-                                <rect key="frame" x="20" y="307" width="353" height="35"/>
+                                <rect key="frame" x="20" y="304.33333333333331" width="353" height="29.333333333333314"/>
                                 <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="25"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="eWY-rg-k99">
-                                <rect key="frame" x="20" y="362" width="353" height="60"/>
+                                <rect key="frame" x="20" y="353.66666666666669" width="353" height="60"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="co9-gU-QiA">
                                         <rect key="frame" x="0.0" y="0.0" width="171.66666666666666" height="60"/>
@@ -1033,7 +1033,7 @@
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip Calcultor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7QG-My-k1w">
-                                <rect key="frame" x="75.000000000000014" y="71" width="142.33333333333337" height="31"/>
+                                <rect key="frame" x="75" y="73.666666666666671" width="125.33333333333331" height="25.666666666666671"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -1079,10 +1079,10 @@
             </objects>
             <point key="canvasLocation" x="3766" y="-13"/>
         </scene>
-        <!--Discount FormulaVC-->
+        <!--Tax Tip Discount Formula Page-->
         <scene sceneID="3xo-gB-mSU">
             <objects>
-                <viewController storyboardIdentifier="DiscountFormulaVC" id="hm1-4g-rqA" customClass="DiscountFormulaVC" customModule="TaxTipTally" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DiscountFormulaVC" id="hm1-4g-rqA" customClass="TaxTipDiscountFormulaPage" customModule="TaxTipTally" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q0l-ej-Oh1">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1103,7 +1103,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discount Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NHD-pJ-nRJ">
-                                <rect key="frame" x="75.000000000000014" y="71" width="222.33333333333337" height="31"/>
+                                <rect key="frame" x="74.999999999999986" y="73.666666666666671" width="193.66666666666663" height="25.666666666666671"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -1195,10 +1195,10 @@ Discount Percentage is the percentage of the discount offered.</string>
             </objects>
             <point key="canvasLocation" x="3005" y="651"/>
         </scene>
-        <!--Chit FormulaVC-->
+        <!--Tax Tip Chit Formula Page-->
         <scene sceneID="6YF-XV-JeJ">
             <objects>
-                <viewController storyboardIdentifier="ChitFormulaVC" id="hQu-OZ-zJq" customClass="ChitFormulaVC" customModule="TaxTipTally" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChitFormulaVC" id="hQu-OZ-zJq" customClass="TaxTipChitFormulaPage" customModule="TaxTipTally" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bXf-J0-lbN">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1219,7 +1219,7 @@ Discount Percentage is the percentage of the discount offered.</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chits Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ub-a7-RyG">
-                                <rect key="frame" x="74.999999999999986" y="71" width="181.66666666666663" height="31"/>
+                                <rect key="frame" x="75.000000000000014" y="73.666666666666671" width="157.33333333333337" height="25.666666666666671"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -1311,10 +1311,10 @@ Number of Months = The duration of the chit fund in months.</string>
             </objects>
             <point key="canvasLocation" x="2370" y="644"/>
         </scene>
-        <!--GSTVC-->
+        <!--Tax TipGST Page-->
         <scene sceneID="5wm-qc-Ky7">
             <objects>
-                <viewController storyboardIdentifier="GSTVC" id="tEB-on-8of" customClass="GSTVC" customModule="TaxTipTally" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GSTVC" id="tEB-on-8of" customClass="TaxTipGSTPage" customModule="TaxTipTally" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oJj-hP-3KY">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1323,13 +1323,13 @@ Number of Months = The duration of the chit fund in months.</string>
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GST Inclusive" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zP-yy-WVO">
-                                <rect key="frame" x="60" y="367" width="323" height="28"/>
+                                <rect key="frame" x="60" y="353" width="323" height="23.333333333333314"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cuW-Aa-2ER">
-                                <rect key="frame" x="20" y="366" width="30" height="30"/>
+                                <rect key="frame" x="20" y="349.66666666666669" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="nmK-uz-kIp"/>
                                     <constraint firstAttribute="width" constant="30" id="yRN-9z-trQ"/>
@@ -1340,7 +1340,7 @@ Number of Months = The duration of the chit fund in months.</string>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter GST" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cey-ga-fh8">
-                                <rect key="frame" x="20" y="256" width="353" height="40"/>
+                                <rect key="frame" x="20" y="239.66666666666663" width="353" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="9D4-ZA-I3I"/>
                                 </constraints>
@@ -1348,19 +1348,19 @@ Number of Months = The duration of the chit fund in months.</string>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GST (%)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eMf-0Y-PKV">
-                                <rect key="frame" x="20" y="215" width="353" height="31"/>
+                                <rect key="frame" x="20" y="204" width="353" height="25.666666666666657"/>
                                 <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GST Calculator" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yiv-aO-0K3">
-                                <rect key="frame" x="74" y="69" width="309" height="35"/>
+                                <rect key="frame" x="74" y="69" width="309" height="29.333333333333329"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zCz-Xc-VcH">
-                                <rect key="frame" x="16" y="62.666666666666657" width="48" height="48"/>
+                                <rect key="frame" x="16" y="59.666666666666657" width="48" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="48" id="eZh-zK-dMM"/>
                                     <constraint firstAttribute="height" constant="48" id="yLU-V2-R2H"/>
@@ -1372,13 +1372,13 @@ Number of Months = The duration of the chit fund in months.</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BBN-Qo-vj1">
-                                <rect key="frame" x="20" y="124" width="353" height="31"/>
+                                <rect key="frame" x="20" y="118.33333333333333" width="353" height="25.666666666666671"/>
                                 <fontDescription key="fontDescription" name="Poppins-Bold" family="Poppins" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e0y-Vp-s8H">
-                                <rect key="frame" x="20" y="165" width="353" height="40"/>
+                                <rect key="frame" x="20" y="154" width="353" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="bRE-gO-Me4"/>
                                 </constraints>
@@ -1386,7 +1386,7 @@ Number of Months = The duration of the chit fund in months.</string>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZFO-4H-TgA">
-                                <rect key="frame" x="20" y="316" width="30" height="30"/>
+                                <rect key="frame" x="20" y="299.66666666666669" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="NkQ-Xa-q8P"/>
                                     <constraint firstAttribute="height" constant="30" id="aJ2-gk-dd8"/>
@@ -1397,13 +1397,13 @@ Number of Months = The duration of the chit fund in months.</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GST Exclusive" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0J-Ev-m3Z">
-                                <rect key="frame" x="60" y="317" width="323" height="28"/>
+                                <rect key="frame" x="60" y="303" width="323" height="23.333333333333314"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="oZO-CF-Pfv">
-                                <rect key="frame" x="20" y="415" width="353" height="60"/>
+                                <rect key="frame" x="20" y="396.33333333333331" width="353" height="60"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e6r-eh-JWq">
                                         <rect key="frame" x="0.0" y="0.0" width="171.66666666666666" height="60"/>
@@ -1484,13 +1484,13 @@ Number of Months = The duration of the chit fund in months.</string>
                                 <rect key="frame" x="20" y="752" width="353" height="80"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Post GST Amount" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnf-Tv-EzJ">
-                                        <rect key="frame" x="10" y="10" width="333" height="28"/>
+                                        <rect key="frame" x="10" y="9.9999999999999982" width="333" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="500" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ld-RE-lrf">
-                                        <rect key="frame" x="10" y="48" width="333" height="28"/>
+                                        <rect key="frame" x="10" y="43.333333333333371" width="333" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -1522,13 +1522,13 @@ Number of Months = The duration of the chit fund in months.</string>
                                 <rect key="frame" x="20" y="662" width="353" height="80"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total GST" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Mj-aL-xGS">
-                                        <rect key="frame" x="10" y="10" width="333" height="28"/>
+                                        <rect key="frame" x="10" y="9.9999999999999982" width="333" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="500" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jzk-kH-UGc">
-                                        <rect key="frame" x="10" y="48" width="333" height="28"/>
+                                        <rect key="frame" x="10" y="43.333333333333371" width="333" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -1618,10 +1618,10 @@ Number of Months = The duration of the chit fund in months.</string>
             </objects>
             <point key="canvasLocation" x="1712" y="-13"/>
         </scene>
-        <!--Tip FormulaVC-->
+        <!--Tax Tip Formula Page-->
         <scene sceneID="IrR-2Y-xzq">
             <objects>
-                <viewController storyboardIdentifier="TipFormulaVC" id="HKP-yl-c6v" customClass="TipFormulaVC" customModule="TaxTipTally" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TipFormulaVC" id="HKP-yl-c6v" customClass="TaxTipFormulaPage" customModule="TaxTipTally" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h9K-2Y-iFB">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1642,7 +1642,7 @@ Number of Months = The duration of the chit fund in months.</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFu-CO-hdZ">
-                                <rect key="frame" x="75.000000000000014" y="71" width="157.33333333333337" height="31"/>
+                                <rect key="frame" x="75" y="73.666666666666671" width="137" height="25.666666666666671"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -1734,10 +1734,10 @@ Tip Percentage is the percentage you wish to give as a tip (e.g., 10%, 15%, 20%)
             </objects>
             <point key="canvasLocation" x="3660" y="651"/>
         </scene>
-        <!--FormulaVC-->
+        <!--Tax TipGST Formula Page-->
         <scene sceneID="h4s-e0-3xd">
             <objects>
-                <viewController storyboardIdentifier="GSTFormulaVC" id="qyu-HD-zhU" customClass="GSTFormulaVC" customModule="TaxTipTally" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GSTFormulaVC" id="qyu-HD-zhU" customClass="TaxTipGSTFormulaPage" customModule="TaxTipTally" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="11K-6E-k7m">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1758,7 +1758,7 @@ Tip Percentage is the percentage you wish to give as a tip (e.g., 10%, 15%, 20%)
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GST Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wDC-8C-yZ9">
-                                <rect key="frame" x="74.999999999999986" y="71" width="166.66666666666663" height="31"/>
+                                <rect key="frame" x="75" y="73.666666666666671" width="150" height="25.666666666666671"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -1889,10 +1889,10 @@ Price before GST = Price with GST - GST Amount</string>
             </objects>
             <point key="canvasLocation" x="384" y="688"/>
         </scene>
-        <!--Chit AnswerVC-->
+        <!--Tax Tip Chit Answer Page-->
         <scene sceneID="Dps-ta-otH">
             <objects>
-                <viewController storyboardIdentifier="ChitAnswerVC" id="WxT-Ud-oo7" customClass="ChitAnswerVC" customModule="TaxTipTally" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChitAnswerVC" id="WxT-Ud-oo7" customClass="TaxTipChitAnswerPage" customModule="TaxTipTally" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="URl-xH-Krr">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1901,46 +1901,46 @@ Price before GST = Price with GST - GST Amount</string>
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Net Amount Payable" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p6o-n0-Azo">
-                                <rect key="frame" x="20" y="618.66666666666663" width="353" height="28"/>
+                                <rect key="frame" x="20" y="611" width="353" height="23.333333333333371"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lVp-FK-j4Z">
-                                <rect key="frame" x="20" y="348.66666666666669" width="353" height="250.00000000000006"/>
+                                <rect key="frame" x="20" y="341" width="353" height="250"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Dividend" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ub-NJ-qO3">
-                                        <rect key="frame" x="10" y="20" width="333" height="28"/>
+                                        <rect key="frame" x="10" y="20" width="333" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Devinded Per Member:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rz9-LF-WVh">
-                                        <rect key="frame" x="10" y="96" width="333" height="28"/>
+                                        <rect key="frame" x="10" y="86.666666666666686" width="333" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9iS-qT-FXu">
-                                        <rect key="frame" x="20" y="58" width="313" height="28"/>
+                                        <rect key="frame" x="20" y="53.333333333333321" width="313" height="23.333333333333336"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r11-xa-ISw">
-                                        <rect key="frame" x="20" y="134" width="313" height="28"/>
+                                        <rect key="frame" x="20" y="119.99999999999999" width="313" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GXr-f7-j8a">
-                                        <rect key="frame" x="20" y="209.99999999999994" width="313" height="28"/>
+                                        <rect key="frame" x="20" y="186.66666666666663" width="313" height="23.333333333333343"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payable Amount Per Person" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hE2-jC-eWl">
-                                        <rect key="frame" x="10" y="171.99999999999994" width="333" height="28"/>
+                                        <rect key="frame" x="10" y="153.33333333333331" width="333" height="23.333333333333343"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -1981,19 +1981,19 @@ Price before GST = Price with GST - GST Amount</string>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Additional Information" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F5u-4v-pDo">
-                                <rect key="frame" x="20" y="310.66666666666669" width="353" height="28"/>
+                                <rect key="frame" x="20" y="307.66666666666669" width="353" height="23.333333333333314"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7v0-bs-Po9">
-                                <rect key="frame" x="74" y="69" width="309" height="35"/>
+                                <rect key="frame" x="74" y="69" width="309" height="29.333333333333329"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jxe-fK-5Di">
-                                <rect key="frame" x="16" y="62.666666666666657" width="48" height="48"/>
+                                <rect key="frame" x="16" y="59.666666666666657" width="48" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="48" id="RnM-WC-2ES"/>
                                     <constraint firstAttribute="height" constant="48" id="Vb7-pF-PDm"/>
@@ -2005,40 +2005,40 @@ Price before GST = Price with GST - GST Amount</string>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h9M-D5-8WH">
-                                <rect key="frame" x="20" y="140.66666666666666" width="353" height="149.99999999999997"/>
+                                <rect key="frame" x="20" y="137.66666666666666" width="353" height="149.99999999999997"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chit Amount:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9lA-4f-UAM">
-                                        <rect key="frame" x="10" y="20" width="134.33333333333334" height="28"/>
+                                        <rect key="frame" x="10.000000000000007" y="20" width="117.66666666666669" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="500" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dLT-oo-6Bn">
-                                        <rect key="frame" x="304" y="20" width="39" height="28"/>
+                                        <rect key="frame" x="309.33333333333331" y="20" width="33.666666666666686" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Auction Amount:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uvW-3I-N4c">
-                                        <rect key="frame" x="10" y="58" width="171.33333333333334" height="28"/>
+                                        <rect key="frame" x="10" y="53.33333333333335" width="149.33333333333334" height="23.333333333333336"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agent Commision:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M3M-Mb-vAu">
-                                        <rect key="frame" x="10" y="96" width="189.33333333333334" height="28"/>
+                                        <rect key="frame" x="10" y="86.666666666666686" width="165.33333333333334" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="500" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8E-2P-B5y">
-                                        <rect key="frame" x="304" y="58" width="39" height="28"/>
+                                        <rect key="frame" x="309.33333333333331" y="53.33333333333335" width="33.666666666666686" height="23.333333333333336"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="500" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iLU-IE-E9N">
-                                        <rect key="frame" x="304" y="96" width="39" height="28"/>
+                                        <rect key="frame" x="309.33333333333331" y="86.666666666666686" width="33.666666666666686" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -2073,7 +2073,7 @@ Price before GST = Price with GST - GST Amount</string>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SQX-KU-Cto">
-                                <rect key="frame" x="20" y="656.66666666666663" width="353" height="28"/>
+                                <rect key="frame" x="20" y="644.33333333333337" width="353" height="23.333333333333371"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>

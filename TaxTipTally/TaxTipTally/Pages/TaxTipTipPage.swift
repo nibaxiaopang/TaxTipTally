@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TipVC: UIViewController {
+class TaxTipTipPage: UIViewController {
 
     @IBOutlet weak var lblAnswer: UILabel!
     @IBOutlet weak var txtNumberOfPerson: UITextField!

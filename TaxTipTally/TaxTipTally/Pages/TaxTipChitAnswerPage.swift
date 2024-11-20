@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ChitAnswerVC: UIViewController {
+class TaxTipChitAnswerPage: UIViewController {
 
     @IBOutlet weak var lblNetAmountPayable: UILabel!
     @IBOutlet weak var lblPayableAmountPerPerson: UILabel!

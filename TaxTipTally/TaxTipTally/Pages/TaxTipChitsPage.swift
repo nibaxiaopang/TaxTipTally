@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ChitsVC: UIViewController {
+class TaxTipChitsPage: UIViewController {
 
     @IBOutlet weak var txtAuctionMonth: UITextField!
     @IBOutlet weak var txtAuctionAmount: UITextField!
@@ -50,7 +50,7 @@ class ChitsVC: UIViewController {
         
         // Initialize ChitAnswerVC and pass calculated values
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        if let chitAnswerVC = storyboard.instantiateViewController(withIdentifier: "ChitAnswerVC") as? ChitAnswerVC {
+        if let chitAnswerVC = storyboard.instantiateViewController(withIdentifier: "ChitAnswerVC") as? TaxTipChitAnswerPage {
             chitAnswerVC.netAmountPayable = netAmountPayable
             chitAnswerVC.payableAmountPerPerson = payableAmountPerPerson
             chitAnswerVC.dividedPerMember = dividedPerMember

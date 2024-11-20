@@ -7,7 +7,7 @@
 
 import UIKit
 
-class GSTVC: UIViewController {
+class TaxTipGSTPage: UIViewController {
 
     @IBOutlet weak var viewPostGst: UIView!
     @IBOutlet weak var viewGst: UIView!

@@ -8,7 +8,7 @@
 import UIKit
 import StoreKit
 
-class WelcomeVC: UIViewController, UNUserNotificationCenterDelegate {
+class TaxTipWelcomePage: UIViewController, UNUserNotificationCenterDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -54,7 +54,7 @@ class WelcomeVC: UIViewController, UNUserNotificationCenterDelegate {
     }
     
     @IBAction func Start(_ sender: Any) {
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "HomeVC") as! HomeVC
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "HomeVC") as! TaxTipHomePage
         self.navigationController?.pushViewController(vc, animated: true)
     }
   

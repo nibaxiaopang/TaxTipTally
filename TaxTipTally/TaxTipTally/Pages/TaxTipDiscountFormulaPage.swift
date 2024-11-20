@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DiscountFormulaVC: UIViewController {
+class TaxTipDiscountFormulaPage: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +20,7 @@ class DiscountFormulaVC: UIViewController {
     }
     
     @IBAction func TapOnFormula(_ sender: Any) {
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "DiscountVC") as! DiscountVC
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "DiscountVC") as! TaxTipDiscountPage
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

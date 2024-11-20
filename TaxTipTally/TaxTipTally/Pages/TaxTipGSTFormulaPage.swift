@@ -7,7 +7,7 @@
 
 import UIKit
 
-class GSTFormulaVC: UIViewController {
+class TaxTipGSTFormulaPage: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +20,7 @@ class GSTFormulaVC: UIViewController {
     }
     
     @IBAction func TapOnFormula(_ sender: Any) {
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "GSTVC") as! GSTVC
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "GSTVC") as! TaxTipGSTPage
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
