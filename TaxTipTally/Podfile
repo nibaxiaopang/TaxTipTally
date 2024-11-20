@@ -6,5 +6,6 @@ target 'TaxTipTally' do
   use_frameworks!
 
   # Pods for TaxTipTally
-
+  pod 'Firebase/Messaging'
+  pod 'AppsFlyerFramework'
 end

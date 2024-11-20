@@ -2,7 +2,7 @@
 //  GSTFormulaVC.swift
 //  TaxTipTally
 //
-//  Created by jin fu on 2024/11/20.
+//  Created by TaxTipTally on 2024/11/20.
 //
 
 import UIKit

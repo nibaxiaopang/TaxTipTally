@@ -2,19 +2,41 @@
 //  AppDelegate.swift
 //  TaxTipTally
 //
-//  Created by jin fu on 2024/11/20.
+//  Created by TaxTipTally on 2024/11/20.
 //
 
 import UIKit
-
+import FirebaseCore
+import FirebaseMessaging
+import AppsFlyerLib
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, AppsFlyerLibDelegate {
 
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+                
+        let appsFlyer = AppsFlyerLib.shared()
+        appsFlyer.appsFlyerDevKey = UIViewController.taxTipAppsFlyerDevKey()
+        appsFlyer.appleAppID = "6738417875"
+        appsFlyer.waitForATTUserAuthorization(timeoutInterval: 60)
+        appsFlyer.delegate = self
         return true
+    }
+    
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        Messaging.messaging().apnsToken = deviceToken
+    }
+    
+    /// AppsFlyerLibDelegate
+    func onConversionDataSuccess(_ conversionInfo: [AnyHashable : Any]) {
+        print("success appsflyer")
+    }
+    
+    func onConversionDataFail(_ error: Error) {
+        print("error appsflyer")
     }
 
     // MARK: UISceneSession Lifecycle

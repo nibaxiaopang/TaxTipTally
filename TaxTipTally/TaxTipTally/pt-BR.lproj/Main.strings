@@ -1,0 +1,270 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "0R6-d2-Nu5"; */
+"0R6-d2-Nu5.text" = "Label";
+
+/* Class = "UILabel"; text = "Total Dividend"; ObjectID = "0Ub-NJ-qO3"; */
+"0Ub-NJ-qO3.text" = "Total Dividend";
+
+/* Class = "UITextField"; placeholder = "Enter Agent Commision (%)"; ObjectID = "0pV-F8-4vq"; */
+"0pV-F8-4vq.placeholder" = "Enter Agent Commision (%)";
+
+/* Class = "UILabel"; text = "Amount"; ObjectID = "1Q9-lz-uZk"; */
+"1Q9-lz-uZk.text" = "Amount";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "2Vp-wi-uwP"; */
+"2Vp-wi-uwP.normalTitle" = "Calculate";
+
+/* Class = "UIButton"; normalTitle = "Privacy Policy"; ObjectID = "5Xc-Yt-uSe"; */
+"5Xc-Yt-uSe.normalTitle" = "Privacy Policy";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "6yX-ZC-1eh"; */
+"6yX-ZC-1eh.normalTitle" = "Calculate";
+
+/* Class = "UILabel"; text = "GST Inclusive"; ObjectID = "6zP-yy-WVO"; */
+"6zP-yy-WVO.text" = "GST Inclusive";
+
+/* Class = "UILabel"; text = "500"; ObjectID = "7Ld-RE-lrf"; */
+"7Ld-RE-lrf.text" = "500";
+
+/* Class = "UILabel"; text = "Tip Calcultor"; ObjectID = "7QG-My-k1w"; */
+"7QG-My-k1w.text" = "Tip Calcultor";
+
+/* Class = "UILabel"; text = "Result"; ObjectID = "7v0-bs-Po9"; */
+"7v0-bs-Po9.text" = "Result";
+
+/* Class = "UILabel"; text = "Total GST"; ObjectID = "8Mj-aL-xGS"; */
+"8Mj-aL-xGS.text" = "Total GST";
+
+/* Class = "UIButton"; normalTitle = "Reset"; ObjectID = "9Bi-yF-LfX"; */
+"9Bi-yF-LfX.normalTitle" = "Reset";
+
+/* Class = "UILabel"; text = "200"; ObjectID = "9iS-qT-FXu"; */
+"9iS-qT-FXu.text" = "200";
+
+/* Class = "UILabel"; text = "Chit Amount:"; ObjectID = "9lA-4f-UAM"; */
+"9lA-4f-UAM.text" = "Chit Amount:";
+
+/* Class = "UILabel"; text = "Chits Calculator"; ObjectID = "9ub-a7-RyG"; */
+"9ub-a7-RyG.text" = "Chits Calculator";
+
+/* Class = "UILabel"; text = "Total Member"; ObjectID = "AgW-Fp-AFc"; */
+"AgW-Fp-AFc.text" = "Total Member";
+
+/* Class = "UILabel"; text = "TaxTipTally"; ObjectID = "B2y-b8-Qxz"; */
+"B2y-b8-Qxz.text" = "TaxTipTally";
+
+/* Class = "UIButton"; normalTitle = "Rate App"; ObjectID = "B5m-oI-9lz"; */
+"B5m-oI-9lz.normalTitle" = "Rate App";
+
+/* Class = "UILabel"; text = "Amount"; ObjectID = "BBN-Qo-vj1"; */
+"BBN-Qo-vj1.text" = "Amount";
+
+/* Class = "UITextField"; placeholder = "Enter GST"; ObjectID = "BpU-fu-ZjO"; */
+"BpU-fu-ZjO.placeholder" = "Enter GST";
+
+/* Class = "UITextField"; placeholder = "Enter GST"; ObjectID = "Cey-ga-fh8"; */
+"Cey-ga-fh8.placeholder" = "Enter GST";
+
+/* Class = "UILabel"; text = "Tip Calculator"; ObjectID = "EFu-CO-hdZ"; */
+"EFu-CO-hdZ.text" = "Tip Calculator";
+
+/* Class = "UITextField"; placeholder = "Enter Amount"; ObjectID = "EdF-jS-4h3"; */
+"EdF-jS-4h3.placeholder" = "Enter Amount";
+
+/* Class = "UILabel"; text = "Additional Information"; ObjectID = "F5u-4v-pDo"; */
+"F5u-4v-pDo.text" = "Additional Information";
+
+/* Class = "UILabel"; text = "200"; ObjectID = "GXr-f7-j8a"; */
+"GXr-f7-j8a.text" = "200";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "HDq-kU-P9b"; */
+"HDq-kU-P9b.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Total Month"; ObjectID = "Hog-L7-Y3O"; */
+"Hog-L7-Y3O.text" = "Total Month";
+
+/* Class = "UILabel"; text = "Chits Calculator"; ObjectID = "JPt-Om-SJ9"; */
+"JPt-Om-SJ9.text" = "Chits Calculator";
+
+/* Class = "UITextField"; placeholder = "Enter Number Of Person"; ObjectID = "Lr8-24-jvk"; */
+"Lr8-24-jvk.placeholder" = "Enter Number Of Person";
+
+/* Class = "UITextField"; placeholder = "Enter Tip (%)"; ObjectID = "Lwv-Vm-abu"; */
+"Lwv-Vm-abu.placeholder" = "Enter Tip (%)";
+
+/* Class = "UILabel"; text = "Agent Commision:"; ObjectID = "M3M-Mb-vAu"; */
+"M3M-Mb-vAu.text" = "Agent Commision:";
+
+/* Class = "UILabel"; text = "Chit Value"; ObjectID = "MhA-KQ-dcY"; */
+"MhA-KQ-dcY.text" = "Chit Value";
+
+/* Class = "UILabel"; text = "Discount Calculator"; ObjectID = "NHD-pJ-nRJ"; */
+"NHD-pJ-nRJ.text" = "Discount Calculator";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "NZW-hc-Ldg"; */
+"NZW-hc-Ldg.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Discount Calculator"; ObjectID = "OXd-Nn-AyG"; */
+"OXd-Nn-AyG.normalTitle" = "Discount Calculator";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "PLO-Jf-koa"; */
+"PLO-Jf-koa.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Discount (%)"; ObjectID = "QQR-4M-AQg"; */
+"QQR-4M-AQg.text" = "Discount (%)";
+
+/* Class = "UILabel"; text = "Devinded Per Member:"; ObjectID = "Rz9-LF-WVh"; */
+"Rz9-LF-WVh.text" = "Devinded Per Member:";
+
+/* Class = "UILabel"; text = "500"; ObjectID = "SCv-M1-Z7O"; */
+"SCv-M1-Z7O.text" = "500";
+
+/* Class = "UILabel"; text = "5000"; ObjectID = "SQX-KU-Cto"; */
+"SQX-KU-Cto.text" = "5000";
+
+/* Class = "UIButton"; normalTitle = "Go to Formula"; ObjectID = "T9N-by-mUY"; */
+"T9N-by-mUY.normalTitle" = "Go to Formula";
+
+/* Class = "UILabel"; text = "TaxTipTally"; ObjectID = "TJe-Io-vT5"; */
+"TJe-Io-vT5.text" = "TaxTipTally";
+
+/* Class = "UITextField"; placeholder = "Enter Amount"; ObjectID = "UR0-AT-HSe"; */
+"UR0-AT-HSe.placeholder" = "Enter Amount";
+
+/* Class = "UILabel"; text = "Original Price is the price before any discount.\n\nDiscount Percentage is the percentage of the discount offered."; ObjectID = "VWD-c3-8T0"; */
+"VWD-c3-8T0.text" = "Original Price is the price before any discount.\n\nDiscount Percentage is the percentage of the discount offered.";
+
+/* Class = "UILabel"; text = "Final Amount"; ObjectID = "WgS-1S-knd"; */
+"WgS-1S-knd.text" = "Final Amount";
+
+/* Class = "UILabel"; text = "Auction Amount"; ObjectID = "YcI-WR-X8h"; */
+"YcI-WR-X8h.text" = "Auction Amount";
+
+/* Class = "UITextField"; placeholder = "Enter Month"; ObjectID = "Yqe-J1-IpA"; */
+"Yqe-J1-IpA.placeholder" = "Enter Month";
+
+/* Class = "UIButton"; normalTitle = "Share App"; ObjectID = "Yzc-rA-m1A"; */
+"Yzc-rA-m1A.normalTitle" = "Share App";
+
+/* Class = "UITextField"; placeholder = "Enter Auction Amount"; ObjectID = "aUN-ID-YHL"; */
+"aUN-ID-YHL.placeholder" = "Enter Auction Amount";
+
+/* Class = "UIButton"; normalTitle = "Go to Formula"; ObjectID = "adZ-ir-PF1"; */
+"adZ-ir-PF1.normalTitle" = "Go to Formula";
+
+/* Class = "UITextField"; placeholder = "Enter Amount"; ObjectID = "awZ-7h-9zY"; */
+"awZ-7h-9zY.placeholder" = "Enter Amount";
+
+/* Class = "UILabel"; text = "Total Chit Value = The total value of the chit pool (sum of all contributions).\n\nNumber of Months = The duration of the chit fund in months."; ObjectID = "bSz-rw-et7"; */
+"bSz-rw-et7.text" = "Total Chit Value = The total value of the chit pool (sum of all contributions).\n\nNumber of Months = The duration of the chit fund in months.";
+
+/* Class = "UIButton"; normalTitle = "Go to Formula"; ObjectID = "bWj-cR-dYa"; */
+"bWj-cR-dYa.normalTitle" = "Go to Formula";
+
+/* Class = "UIButton"; normalTitle = "GST Calculator"; ObjectID = "beN-s5-SNB"; */
+"beN-s5-SNB.normalTitle" = "GST Calculator";
+
+/* Class = "UILabel"; text = "500"; ObjectID = "dLT-oo-6Bn"; */
+"dLT-oo-6Bn.text" = "500";
+
+/* Class = "UITextField"; placeholder = "Enter Amount"; ObjectID = "e0y-Vp-s8H"; */
+"e0y-Vp-s8H.placeholder" = "Enter Amount";
+
+/* Class = "UILabel"; text = "500"; ObjectID = "e8E-2P-B5y"; */
+"e8E-2P-B5y.text" = "500";
+
+/* Class = "UILabel"; text = "GST (%)"; ObjectID = "eMf-0Y-PKV"; */
+"eMf-0Y-PKV.text" = "GST (%)";
+
+/* Class = "UILabel"; text = "500"; ObjectID = "eba-0y-Wbf"; */
+"eba-0y-Wbf.text" = "500";
+
+/* Class = "UILabel"; text = "Auction Month"; ObjectID = "ec1-P5-kq1"; */
+"ec1-P5-kq1.text" = "Auction Month";
+
+/* Class = "UILabel"; text = "GST Exclusive"; ObjectID = "f0J-Ev-m3Z"; */
+"f0J-Ev-m3Z.text" = "GST Exclusive";
+
+/* Class = "UIButton"; normalTitle = "Reset"; ObjectID = "fJf-d2-VyG"; */
+"fJf-d2-VyG.normalTitle" = "Reset";
+
+/* Class = "UILabel"; text = "Agent Commision"; ObjectID = "h22-cB-7Ph"; */
+"h22-cB-7Ph.text" = "Agent Commision";
+
+/* Class = "UILabel"; text = "Payable Amount Per Person"; ObjectID = "hE2-jC-eWl"; */
+"hE2-jC-eWl.text" = "Payable Amount Per Person";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "iJr-Y2-nfJ"; */
+"iJr-Y2-nfJ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "500"; ObjectID = "iLU-IE-E9N"; */
+"iLU-IE-E9N.text" = "500";
+
+/* Class = "UILabel"; text = "Discount Calculator"; ObjectID = "icP-Nu-yMX"; */
+"icP-Nu-yMX.text" = "Discount Calculator";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jeb-fV-ExB"; */
+"jeb-fV-ExB.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Go to Formula"; ObjectID = "jmY-Ib-fJX"; */
+"jmY-Ib-fJX.normalTitle" = "Go to Formula";
+
+/* Class = "UILabel"; text = "500"; ObjectID = "jzk-kH-UGc"; */
+"jzk-kH-UGc.text" = "500";
+
+/* Class = "UIButton"; normalTitle = "Reset"; ObjectID = "lk3-FW-Je7"; */
+"lk3-FW-Je7.normalTitle" = "Reset";
+
+/* Class = "UIButton"; normalTitle = "Tip Calculator"; ObjectID = "mPi-FR-jfx"; */
+"mPi-FR-jfx.normalTitle" = "Tip Calculator";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "o6C-3Q-Hq2"; */
+"o6C-3Q-Hq2.normalTitle" = "Calculate";
+
+/* Class = "UILabel"; text = "Your Saving Amount"; ObjectID = "oVs-1E-glk"; */
+"oVs-1E-glk.text" = "Your Saving Amount";
+
+/* Class = "UIButton"; normalTitle = "Chits Calculator"; ObjectID = "olg-ZW-Z85"; */
+"olg-ZW-Z85.normalTitle" = "Chits Calculator";
+
+/* Class = "UITextField"; placeholder = "Enter Total Members"; ObjectID = "ooc-9l-fOK"; */
+"ooc-9l-fOK.placeholder" = "Enter Total Members";
+
+/* Class = "UILabel"; text = "Net Amount Payable"; ObjectID = "p6o-n0-Azo"; */
+"p6o-n0-Azo.text" = "Net Amount Payable";
+
+/* Class = "UILabel"; text = "200"; ObjectID = "r11-xa-ISw"; */
+"r11-xa-ISw.text" = "200";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "syq-gZ-2SP"; */
+"syq-gZ-2SP.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Post GST Amount"; ObjectID = "tnf-Tv-EzJ"; */
+"tnf-Tv-EzJ.text" = "Post GST Amount";
+
+/* Class = "UILabel"; text = "Bill Amount is the total amount on the bill before the tip.\n\nTip Percentage is the percentage you wish to give as a tip (e.g., 10%, 15%, 20%)."; ObjectID = "tzc-kg-oWM"; */
+"tzc-kg-oWM.text" = "Bill Amount is the total amount on the bill before the tip.\n\nTip Percentage is the percentage you wish to give as a tip (e.g., 10%, 15%, 20%).";
+
+/* Class = "UITextField"; placeholder = "Enter Auction Month"; ObjectID = "uT0-IC-V1h"; */
+"uT0-IC-V1h.placeholder" = "Enter Auction Month";
+
+/* Class = "UILabel"; text = "Auction Amount:"; ObjectID = "uvW-3I-N4c"; */
+"uvW-3I-N4c.text" = "Auction Amount:";
+
+/* Class = "UILabel"; text = "GST Amount = (Price with GST) × (GST Rate / (100 + GST Rate))\n\nPrice before GST = Price with GST - GST Amount"; ObjectID = "vn9-sl-oPx"; */
+"vn9-sl-oPx.text" = "GST Amount = (Price with GST) × (GST Rate / (100 + GST Rate))\n\nPrice before GST = Price with GST - GST Amount";
+
+/* Class = "UILabel"; text = "GST Calculator"; ObjectID = "wDC-8C-yZ9"; */
+"wDC-8C-yZ9.text" = "GST Calculator";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "wY3-AD-TRI"; */
+"wY3-AD-TRI.normalTitle" = "Start";
+
+/* Class = "UIButton"; normalTitle = "Reset"; ObjectID = "xM7-vj-ely"; */
+"xM7-vj-ely.normalTitle" = "Reset";
+
+/* Class = "UILabel"; text = "GST Calculator"; ObjectID = "yiv-aO-0K3"; */
+"yiv-aO-0K3.text" = "GST Calculator";
+
+/* Class = "UIButton"; normalTitle = "Calculate"; ObjectID = "zKr-qS-0VO"; */
+"zKr-qS-0VO.normalTitle" = "Calculate";

@@ -90,6 +90,7 @@
 		FF0A718E2CEDC89700DE2F67 /* TaxTipPrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0A718D2CEDC89700DE2F67 /* TaxTipPrivacyViewController.swift */; };
 		FF0A71A42CEDF82300DE2F67 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF0A71A22CEDF82300DE2F67 /* Localizable.strings */; };
 		FF0A71A62CEDFA0300DE2F67 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF0A71A52CEDFA0300DE2F67 /* GoogleService-Info.plist */; };
+		FF0A71AA2CEDFB9400DE2F67 /* UIViewController+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0A71A92CEDFB9400DE2F67 /* UIViewController+Tool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -181,6 +182,15 @@
 		FF0A71A02CEDF80C00DE2F67 /* TaxTipTally.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TaxTipTally.entitlements; sourceTree = "<group>"; };
 		FF0A71A32CEDF82300DE2F67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FF0A71A52CEDFA0300DE2F67 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FF0A71A72CEDFB9400DE2F67 /* TaxTipTally-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaxTipTally-Bridging-Header.h"; sourceTree = "<group>"; };
+		FF0A71A82CEDFB9400DE2F67 /* UIViewController+Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tool.h"; sourceTree = "<group>"; };
+		FF0A71A92CEDFB9400DE2F67 /* UIViewController+Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tool.m"; sourceTree = "<group>"; };
+		FF0A71AB2CEE003800DE2F67 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FF0A71AC2CEE003800DE2F67 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Main.strings; sourceTree = "<group>"; };
+		FF0A71AD2CEE003800DE2F67 /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FF0A71AE2CEE003D00DE2F67 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		FF0A71AF2CEE003D00DE2F67 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		FF0A71B02CEE003D00DE2F67 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +271,9 @@
 				FF0A71152CEDC59B00DE2F67 /* LIsteners */,
 				FF0A711A2CEDC59B00DE2F67 /* ReturnKeyHandler */,
 				FF0A71232CEDC59B00DE2F67 /* UIKitExtensions */,
+				FF0A71A82CEDFB9400DE2F67 /* UIViewController+Tool.h */,
+				FF0A71A92CEDFB9400DE2F67 /* UIViewController+Tool.m */,
+				FF0A71A72CEDFB9400DE2F67 /* TaxTipTally-Bridging-Header.h */,
 			);
 			path = ThirdToll;
 			sourceTree = "<group>";
@@ -444,6 +457,8 @@
 				FF0A70C12CEDC4EC00DE2F67 /* Sources */,
 				FF0A70C22CEDC4EC00DE2F67 /* Frameworks */,
 				FF0A70C32CEDC4EC00DE2F67 /* Resources */,
+				6DB99A5DE5DE964CBEA2068D /* [CP] Embed Pods Frameworks */,
+				2495F4B6613B4411D24CB5F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -466,6 +481,7 @@
 				TargetAttributes = {
 					FF0A70C42CEDC4EC00DE2F67 = {
 						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
 					};
 				};
 			};
@@ -476,6 +492,8 @@
 			knownRegions = (
 				en,
 				Base,
+				hi,
+				"pt-BR",
 			);
 			mainGroup = FF0A70BC2CEDC4EC00DE2F67;
 			productRefGroup = FF0A70C62CEDC4EC00DE2F67 /* Products */;
@@ -521,6 +539,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2495F4B6613B4411D24CB5F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaxTipTally/Pods-TaxTipTally-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaxTipTally/Pods-TaxTipTally-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaxTipTally/Pods-TaxTipTally-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6A3B4228D5FBFDB5692F48E9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -541,6 +576,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DB99A5DE5DE964CBEA2068D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaxTipTally/Pods-TaxTipTally-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaxTipTally/Pods-TaxTipTally-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaxTipTally/Pods-TaxTipTally-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -586,6 +638,7 @@
 				FF0A71382CEDC59B00DE2F67 /* IQTextFieldViewInfoModel.swift in Sources */,
 				FF0A71392CEDC59B00DE2F67 /* IQKeyboardManager.swift in Sources */,
 				FF0A713A2CEDC59B00DE2F67 /* IQToolbarConfiguration.swift in Sources */,
+				FF0A71AA2CEDFB9400DE2F67 /* UIViewController+Tool.m in Sources */,
 				FF0A713B2CEDC59B00DE2F67 /* IQUIViewController+Additions.swift in Sources */,
 				FF0A713C2CEDC59B00DE2F67 /* IQKeyboardManager+UIKeyboardNotification.swift in Sources */,
 				FF0A713D2CEDC59B00DE2F67 /* IQTitleBarButtonItem.swift in Sources */,
@@ -619,6 +672,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				FF0A70E02CEDC4FF00DE2F67 /* Base */,
+				FF0A71AB2CEE003800DE2F67 /* hi */,
+				FF0A71AE2CEE003D00DE2F67 /* pt-BR */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -627,6 +682,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				FF0A70E22CEDC4FF00DE2F67 /* Base */,
+				FF0A71AC2CEE003800DE2F67 /* hi */,
+				FF0A71AF2CEE003D00DE2F67 /* pt-BR */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -635,6 +692,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				FF0A71A32CEDF82300DE2F67 /* en */,
+				FF0A71AD2CEE003800DE2F67 /* hi */,
+				FF0A71B02CEE003D00DE2F67 /* pt-BR */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -648,12 +707,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = TaxTipTally/TaxTipTally.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TaxTipTally/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = TaxTipTally;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "TaxTipTally uses tracking to personalize features and enhance your experience while ensuring your privacy.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -670,6 +732,8 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TaxTipTally/ThirdToll/TaxTipTally-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -681,12 +745,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = TaxTipTally/TaxTipTally.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TaxTipTally/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = TaxTipTally;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "TaxTipTally uses tracking to personalize features and enhance your experience while ensuring your privacy.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -703,6 +770,7 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TaxTipTally/ThirdToll/TaxTipTally-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -713,6 +781,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -776,6 +845,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
