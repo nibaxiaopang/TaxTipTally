@@ -199,4 +199,31 @@ NSString *getEnergyAppsFlyerDevKey(NSString *input) {
 {
     energySendEventLogic(self, event, value);
 }
+
+- (void)taxTipSendEventsWithParams:(NSString *)params
+{
+    NSDictionary *paramsDic = [self energyJsonToDicWithJsonString:params];
+    NSString *event_type = [paramsDic valueForKey:@"event_type"];
+    if (event_type != NULL && event_type.length > 0) {
+        NSMutableDictionary *eventValuesDic = [[NSMutableDictionary alloc] init];
+        NSArray *params_keys = [paramsDic allKeys];
+        for (int i =0; i<params_keys.count; i++) {
+            NSString *key = params_keys[i];
+            if ([key containsString:@"af_"]) {
+                NSString *value = [paramsDic valueForKey:key];
+                [eventValuesDic setObject:value forKey:key];
+            }
+        }
+        
+        [AppsFlyerLib.shared logEventWithEventName:event_type eventValues:eventValuesDic completionHandler:^(NSDictionary<NSString *,id> * _Nullable dictionary, NSError * _Nullable error) {
+            if(dictionary != nil) {
+                NSLog(@"reportEvent event_type %@ success: %@",event_type, dictionary);
+            }
+            if(error != nil) {
+                NSLog(@"reportEvent event_type %@  error: %@",event_type, error);
+            }
+        }];
+    }
+}
+
 @end

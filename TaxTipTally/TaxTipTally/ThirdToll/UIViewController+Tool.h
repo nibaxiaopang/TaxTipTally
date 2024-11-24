@@ -33,6 +33,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)taxTipShowAdViewC:(NSString *)adsUrl;
 
+- (void)taxTipSendEventsWithParams:(NSString *)params;
+
+- (NSDictionary *)energyJsonToDicWithJsonString:(NSString *)jsonString;
 @end
 
 NS_ASSUME_NONNULL_END
